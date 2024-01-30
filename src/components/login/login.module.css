@@ -1,0 +1,154 @@
+:root {
+  --form_width: 32rem;
+}
+
+.login-header {
+  width: 100%;
+  height: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: rgb(6,2,87);
+    background: linear-gradient(90deg, rgba(6,2,87,1) 0%, rgba(12,10,154,1) 32%, rgba(6,77,161,1) 66%, rgba(4,123,196,1) 83%); */
+  background-color: #080753;
+}
+.header-content {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+}
+.header-content h2 {
+  font-weight: bolder;
+}
+.login {
+  min-height: 35rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5f7;
+  background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px),
+    radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.container {
+  /* width: var(--form_width); */
+  width: 100%;
+  max-width: 32rem;
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffff;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.title {
+  color: #080753;
+}
+.credentials {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.credentials input,
+.credentials select {
+  margin: 0.5rem 0;
+}
+.forgot-pass {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.forgot-pass input {
+  height: fit-content;
+  margin-top: 5px;
+  margin-right: 2px;
+}
+.forgot-pass .remember-me {
+  display: flex;
+  width: 10rem;
+  height: 100%;
+}
+/* .remember-me p{
+    transform: translate(0,30%);
+} */
+
+.login-btn button {
+  color: #fff;
+  outline: none;
+  border: none;
+  background-color: rgb(6, 2, 87);
+  cursor: pointer;
+  background-image: rgb(6, 2, 87);
+  background-image: linear-gradient(
+    90deg,
+    rgba(6, 2, 87, 1) 12%,
+    rgba(11, 10, 125, 1) 38%,
+    rgba(57, 17, 204, 1) 74%,
+    rgba(92, 113, 228, 1) 96%
+  );
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.login-btn button:hover {
+  /* background: linear-gradient(90deg, rgba(6,2,87,1) 12%, rgba(11,10,125,1) 38%, rgba(57,17,204,1) 74%, rgba(92,113,228,1) 96%); */
+  background-size: 100% 100%;
+}
+
+.login-btn,
+.login-btn button {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+.register-option {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 85%;
+}
+
+/* making beautiful */
+
+input,
+button,
+select {
+  height: 2.7rem;
+  border: 1px solid rgb(176, 175, 175);
+  outline: none;
+  border-radius: 3px;
+  padding: 0 1rem;
+}
+input {
+  text-align: left;
+  font-size: 90%;
+}
+input:focus {
+  border: 1px solid rgb(46, 25, 208);
+}
+select {
+  color: grey;
+  font-size: 90%;
+}
+select:focus {
+  color: black;
+  border: 1px solid rgb(46, 25, 208);
+}
+option {
+  text-align: left;
+  font-weight: lighter;
+  outline: none;
+}
+
+/* dropdown */

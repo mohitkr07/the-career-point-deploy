@@ -1,0 +1,286 @@
+:root {
+    --theme_color: #080738;
+    --theme_color2: #090853;
+    --default_width: 66rem;
+}
+
+.admin-dash{
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    height: 5.5rem;
+    width: 100%;
+    
+    background-color: var(--theme_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    height: fit-content;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.logo{
+    height: 4rem;
+    width: auto;
+}
+.logo img{
+    height: 100%;
+}
+.header-title h1{
+    /* font-weight: bold;; */
+}
+.logout button{
+    height: 2rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: ease 0.1s;
+}
+.logout button:hover{
+    color: #fff;
+    background-color: rgb(184, 146, 19);
+}
+
+/* --------------bottom -------------*/
+.admin-bottom{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;  
+}
+.bottom-left{
+    width: 15rem;
+    height: 100%;
+    /* padding: 1rem 0; */
+}
+.side-bar{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+}
+.side-bar button{
+    height: 2.7rem;
+    width: 12rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    background-color: #e5e4ea;
+    outline: none;
+    border: none;
+    text-align: left;
+    transition: ease 0.1s;
+}
+.side-bar button:hover{
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: 2.72rem;
+    width: 12.08rem;
+}
+
+/* style on toggle */
+.styleOnToggle{
+    background-color: #211f90;
+}
+
+.display{
+    max-height: 100%;
+    width: calc(100% - 15rem);
+    /* background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;   */
+    padding: 1rem;
+}
+
+/* --------Head---------- */
+.head{
+    height: 4rem;
+    width: 100%;
+    background-color: #fefeff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .6rem;
+    /* color: #fff; */
+}
+.head h3{
+    font-weight: bold;
+}
+
+/* -----------profile---------------- */
+
+.profile{
+    height: 100%;
+    width: 100%;
+    background-color: var();
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.profile-top{
+    height: 20rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+}
+.profile-pic{
+    height: 18rem;
+    width: auto;
+    margin-right: 2rem;
+}
+.profile-pic img{
+    height: 100%;
+}
+
+.top-right{
+    height: 18rem;
+    width: 20rem;
+}
+.top-right h2, .top-right h4{
+    text-align: left;
+}
+.top-right h4{
+    font-size: 120%;
+}
+
+.profile-bottom{
+    background-color: rgb(237, 235, 235);
+    height: calc(100% - 24rem);
+    width: 100%;
+    color: #ffff;
+    display: flex;
+    padding: 2rem;
+    
+}
+.profile-bottom table{
+    height: fit-content;
+}
+.cell1{
+    background-color: var(--theme_color);
+    padding: .2rem 1rem;
+}
+.cell2{
+    background-color: #fff;
+    color: #080753;
+    padding: .2rem 1rem;
+}
+
+/* -----------student----------- */
+
+.student-list{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    overflow: scroll;
+}
+.student-table{
+    width: 100%;
+}
+.student-table th{
+    background-color: #090853;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.student-table tr{
+    height: 2.2rem;
+}
+.student-table td{
+    border: 1px solid var(--theme_color);
+}
+.remove-button{
+    height: 1.3rem;
+    font-size: 60%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: ease 0.25s;
+}
+.remove-button:hover{
+    color: #fff;
+    background-color: #211f90;
+}
+
+.add-button{
+    margin: 1.5rem;
+}
+.add-button button{
+    height: 2.5rem;
+    width: 10rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: ease 0.25s;
+    background-color: #c5c5e6;
+}
+.add-button button:hover{
+    color: #fff;
+    background-color:#16147f
+}
+
+/* partner */
+.partner-bottom{
+    height: 100%;
+    width: 100%;
+}
+.partner-display{
+    height: 100%;
+    width: 100%;
+}
+.profile{
+    height: 100%;
+    width: 100%;
+}
+
+/* ----------------------float-add-student----------- */
+.float-add-student, .float-add-associate{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    background: rgba(252, 252, 253, 0.70);
+}
+.float-warning{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    background: rgba(252, 252, 253, 0.70);
+    display: flex;
+    justify-content: center;
+}
+.st-tab{
+    height: 100%;
+    position: relative;
+}
+.close-button{
+    position: absolute;
+    z-index: 11;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #3330d3;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    top: 2.5rem;
+    right: 23.5rem;
+    cursor: pointer;
+}
+.close-button:hover{
+    background-color: #24236d;
+}

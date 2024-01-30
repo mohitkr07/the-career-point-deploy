@@ -1,0 +1,21 @@
+.login-header{
+    width: 100%;
+    height: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(6,2,87);
+    background: linear-gradient(90deg, rgba(6,2,87,1) 0%, rgba(12,10,154,1) 32%, rgba(6,77,161,1) 66%, rgba(4,123,196,1) 83%); */
+    background-color: #080753;
+}
+.header-content{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+.header-content h2{
+    font-weight:bolder;
+}

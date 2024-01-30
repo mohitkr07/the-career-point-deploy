@@ -1,0 +1,105 @@
+.add-student {
+  height: auto;
+  width: 100%;
+  max-width: 32rem;
+}
+
+.login {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+}
+
+.remove-warning {
+  height: 10rem;
+  width: 20rem;
+  background-color: #0a0a4e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 0.7rem;
+}
+.remove-warning div {
+  min-width: 10rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.remove-warning div button {
+  height: 2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.remove-warning div button:hover {
+  background-color: rgb(224, 237, 249);
+}
+
+.cross {
+  height: 0rem;
+  position: relative;
+}
+.cross img {
+  position: absolute;
+  height: 1.4rem;
+  top: -4.5rem;
+  right: -6.5rem;
+  cursor: pointer;
+}
+/* .student-cross{
+    height: 0rem;
+    position: relative;
+} */
+.title-customized {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-cross img {
+  height: 1.4rem;
+  cursor: pointer;
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and(max-width: 900) {
+  .cross {
+    height: 0rem;
+    position: relative;
+  }
+  .cross img {
+    position: absolute;
+    height: 1.4rem;
+    top: -4.5rem;
+    right: -3rem;
+    cursor: pointer;
+  }
+  .student-cross {
+    height: 0rem;
+    position: relative;
+  }
+  .student-cross img {
+    position: absolute;
+    height: 1.4rem;
+    top: -4.5rem;
+    right: -5.5rem;
+    cursor: pointer;
+  }
+}

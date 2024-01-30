@@ -1,0 +1,44 @@
+:root {
+    --theme_color: #080753;
+    --default_width: 66rem;
+}
+.course-card{
+    height: 2rem;
+    width: fit-content;
+    margin: 0.5rem;
+    border: 1px solid;
+}
+.course-card p{
+    margin: 0.2rem;
+}
+
+.contact-container{
+    min-height: 12rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+.contact-icon{
+    height: 4.3rem;
+}
+.contact-content{
+    min-height: 6rem;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-title h3{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--theme_color);
+}
+.contact-body{
+    font-size: 90%;
+    color: rgb(67, 83, 108);
+}
+
